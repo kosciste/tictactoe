@@ -23,6 +23,6 @@ document.getElementById('play').addEventListener('click', function(){
         document.querySelectorAll('.field').forEach(element => {
             element.innerHTML = ' ';
         });
-        document.getElementById('play').innerHTML = 'Play';
+        document.getElementById('play').innerHTML = game.currentPlayer.id.toUpperCase() + ' plays';
     }
 })

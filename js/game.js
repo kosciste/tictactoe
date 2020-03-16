@@ -7,7 +7,7 @@ export default class Game{
     this._players = [new Player("x"), new Player("o")];
     this._currentPlayer = this._players[0];
     this._winner = '';
-    this._running = true;
+    this._running = false;
   }
 
   get currentPlayer(){
